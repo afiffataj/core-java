@@ -1,0 +1,11 @@
+class ShortVariable{
+public static void main(String[] args){
+
+short
+s1=1,s2=2,s3=3,s4=4,s5=5,s6=6;
+System.out.println(s1+" "+s2+" "+s3+" "+s4+" "+s5+" "+s6);
+
+s1=11,s2=12,s3=13,s4=14,s5=15,s6=16;
+System.out.println(s1+" "+s2+" "+s3+" "+s4+" "+s5+" "+s6);
+}
+}
