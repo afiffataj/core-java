@@ -1,0 +1,90 @@
+class LaptopBag{
+	public static void main(String[] args){
+		System.out.println("LaptopBag is used to carry laptop");
+		
+		String brand="Aristocrat Nova";
+		int price=384;
+		byte quantity=1;
+		boolean bottlePocket=true;
+		String color="Dark Black";
+		short discount=62;
+		long pincode=567800l;
+		float dimensions=11.30f;
+		double size=13.7d;
+		String schoolType="High school";
+		int weight=480;
+		byte noOfCompartments=2;
+		String pattern="Solid";
+		int sizeOfBag=13;
+		String closureType="Zipper";
+		int warrenty=14;
+		short storageVolume=15;
+		byte stars=4;
+		String countryOfOrigin="Bangladesh";
+		String typeName="School bag for kids";
+		
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("bottlePocket before re-initialization="+bottlePocket);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("dimensions before re-initialization="+dimensions);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("schoolType before re-initialization="+schoolType);
+		System.out.println("weight before re-initialization="+weight);
+		System.out.println("noOfCompartments before re-initialization="+noOfCompartments);
+		System.out.println("pattern before re-initialization="+pattern);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("closureType before re-initialization="+closureType);
+		System.out.println("warrenty before re-initialization="+warrenty);
+		System.out.println("storageVolume before re-initialization="+storageVolume);
+		System.out.println("stars before re-initialization="+stars);
+		System.out.println("countryOfOrigin before re-initialization="+countryOfOrigin);
+		System.out.println("typeName before re-initialization="+typeName);
+		System.out.println();
+		
+		brand="Skybags";
+		price=1006;
+		quantity=3;
+		bottlePocket=false;
+		color="Royal Blue";
+		discount=50;
+		pincode=560064;
+		dimensions=67.30f;
+		size=55.7d;
+		schoolType="Collage";
+		weight=500;
+		noOfCompartments=4;
+		pattern="Solid";
+		sizeOfBag=43;
+		closureType="Non-Zipper";
+		warrenty=9;
+		storageVolume=19;
+		stars=3;
+		countryOfOrigin="America";
+		typeName="Collage bag for Adult";
+		
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("bottlePocket after re-initialization="+bottlePocket);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("dimensions after re-initialization="+dimensions);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("schoolType after re-initialization="+schoolType);
+		System.out.println("weight after re-initialization="+weight);
+		System.out.println("noOfCompartments after re-initialization="+noOfCompartments);
+		System.out.println("pattern after re-initialization="+pattern);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("closureType after re-initialization="+closureType);
+		System.out.println("warrenty after re-initialization="+warrenty);
+		System.out.println("storageVolume after re-initialization="+storageVolume);
+		System.out.println("stars after re-initialization="+stars);
+		System.out.println("countryOfOrigin after re-initialization="+countryOfOrigin);
+		System.out.println("typeName after re-initialization="+typeName);
+	}
+}
