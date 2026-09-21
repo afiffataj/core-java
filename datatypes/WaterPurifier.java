@@ -1,0 +1,90 @@
+class WaterPurifier{
+	public static void main(String[] args){
+		System.out.println("Water Purifier in which every specification is kept");
+
+		String brand="Kent";
+		String model="Grand Plus";
+		int price=18999;
+		float storageCapacity=8.5f;
+		double purificationRate=20.5d;
+		short discount=17;
+		String purificationType="RO+UV+UF";
+		float recoveryRate=45.5f;
+		byte warranty=1;
+		long pincode=570017l;
+		boolean mineralizer=true;
+		int deliveryFee=399;
+		String shipsFrom="Amazon";
+		long phoneNo=9876789012l;
+		byte quantity=1;
+		int finalPrice=17499;
+		byte purificationStages=8;
+		float tankWeight=3.5f;
+		String color="White";
+		String mounting="Wall Mount";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("storageCapacity before re-initialization="+storageCapacity);
+		System.out.println("purificationRate before re-initialization="+purificationRate);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("purificationType before re-initialization="+purificationType);
+		System.out.println("recoveryRate before re-initialization="+recoveryRate);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("mineralizer before re-initialization="+mineralizer);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("purificationStages before re-initialization="+purificationStages);
+		System.out.println("tankWeight before re-initialization="+tankWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("mounting before re-initialization="+mounting);
+		System.out.println();
+
+		brand="Aquaguard";
+		model="Aura RO";
+		price=22999;
+		storageCapacity=10.0f;
+		purificationRate=25.8d;
+		discount=21;
+		purificationType="RO+UV";
+		recoveryRate=50.0f;
+		warranty=2;
+		pincode=570018l;
+		mineralizer=false;
+		deliveryFee=499;
+		shipsFrom="Croma";
+		phoneNo=9988990011l;
+		quantity=2;
+		finalPrice=41999;
+		purificationStages=7;
+		tankWeight=4.2f;
+		color="Black";
+		mounting="Counter Top";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("storageCapacity after re-initialization="+storageCapacity);
+		System.out.println("purificationRate after re-initialization="+purificationRate);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("purificationType after re-initialization="+purificationType);
+		System.out.println("recoveryRate after re-initialization="+recoveryRate);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("mineralizer after re-initialization="+mineralizer);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("purificationStages after re-initialization="+purificationStages);
+		System.out.println("tankWeight after re-initialization="+tankWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("mounting after re-initialization="+mounting);
+	}
+}
