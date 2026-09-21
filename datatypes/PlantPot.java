@@ -1,0 +1,90 @@
+class PlantPot{
+	public static void main(String[] args){
+		System.out.println("Plant Pot in which every specification is kept");
+
+		String brand="Ugaoo";
+		String model="Ceramic Planter";
+		int price=799;
+		float height=20.5f;
+		double diameter=18.8d;
+		short discount=8;
+		String material="Ceramic";
+		float drainageSize=2.5f;
+		byte warranty=1;
+		long pincode=570031l;
+		boolean drainageHole=true;
+		int deliveryFee=49;
+		String shipsFrom="Ugaoo";
+		long phoneNo=9876678901l;
+		byte quantity=2;
+		int finalPrice=699;
+		byte size=8;
+		float potWeight=1.5f;
+		String color="Terracotta";
+		String suitablePlant="Indoor Plants";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("height before re-initialization="+height);
+		System.out.println("diameter before re-initialization="+diameter);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("material before re-initialization="+material);
+		System.out.println("drainageSize before re-initialization="+drainageSize);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("drainageHole before re-initialization="+drainageHole);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("potWeight before re-initialization="+potWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("suitablePlant before re-initialization="+suitablePlant);
+		System.out.println();
+
+		brand="Nestasia";
+		model="Marble Planter";
+		price=1299;
+		height=25.5f;
+		diameter=22.0d;
+		discount=14;
+		material="Marble";
+		drainageSize=3.5f;
+		warranty=2;
+		pincode=570032l;
+		drainageHole=false;
+		deliveryFee=79;
+		shipsFrom="Amazon";
+		phoneNo=9988789012l;
+		quantity=4;
+		finalPrice=4599;
+		size=10;
+		potWeight=2.8f;
+		color="White";
+		suitablePlant="Succulents";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("height after re-initialization="+height);
+		System.out.println("diameter after re-initialization="+diameter);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("material after re-initialization="+material);
+		System.out.println("drainageSize after re-initialization="+drainageSize);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("drainageHole after re-initialization="+drainageHole);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("potWeight after re-initialization="+potWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("suitablePlant after re-initialization="+suitablePlant);
+	}
+}
