@@ -1,0 +1,90 @@
+class Treadmill{
+	public static void main(String[] args){
+		System.out.println("Treadmill in which every specification is kept");
+
+		String brand="PowerMax";
+		String model="UrbanTrek TD-A1";
+		int price=32999;
+		float motorPower=2.0f;
+		double runningArea=123.5d;
+		short discount=10;
+		String motorType="DC Motor";
+		float maximumSpeed=14.0f;
+		byte warranty=3;
+		long pincode=570005l;
+		boolean foldable=true;
+		int deliveryFee=1200;
+		String shipsFrom="Amazon";
+		long phoneNo=9876123456l;
+		byte quantity=1;
+		int finalPrice=29999;
+		byte programs=12;
+		float maximumUserWeight=110.5f;
+		String color="Black";
+		String displayType="LED";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("motorPower before re-initialization="+motorPower);
+		System.out.println("runningArea before re-initialization="+runningArea);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("motorType before re-initialization="+motorType);
+		System.out.println("maximumSpeed before re-initialization="+maximumSpeed);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("foldable before re-initialization="+foldable);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("programs before re-initialization="+programs);
+		System.out.println("maximumUserWeight before re-initialization="+maximumUserWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("displayType before re-initialization="+displayType);
+		System.out.println();
+
+		brand="Lifelong";
+		model="FitPro LLTM09";
+		price=24999;
+		motorPower=2.5f;
+		runningArea=128.8d;
+		discount=18;
+		motorType="Power Drive";
+		maximumSpeed=16.0f;
+		warranty=2;
+		pincode=570006l;
+		foldable=false;
+		deliveryFee=999;
+		shipsFrom="Flipkart";
+		phoneNo=9988223344l;
+		quantity=2;
+		finalPrice=45999;
+		programs=15;
+		maximumUserWeight=120.0f;
+		color="Grey";
+		displayType="LCD";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("motorPower after re-initialization="+motorPower);
+		System.out.println("runningArea after re-initialization="+runningArea);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("motorType after re-initialization="+motorType);
+		System.out.println("maximumSpeed after re-initialization="+maximumSpeed);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("foldable after re-initialization="+foldable);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("programs after re-initialization="+programs);
+		System.out.println("maximumUserWeight after re-initialization="+maximumUserWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("displayType after re-initialization="+displayType);
+	}
+}
