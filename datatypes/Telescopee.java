@@ -1,0 +1,90 @@
+class Telescopee{
+	public static void main(String[] args){
+		System.out.println("Telescope in which every specification is kept");
+
+		String brand="Celestron";
+		String model="PowerSeeker 127EQ";
+		int price=18999;
+		float aperture=127.5f;
+		double focalLength=1000.5d;
+		short discount=11;
+		String opticalDesign="Newtonian Reflector";
+		float magnification=250.0f;
+		byte warranty=2;
+		long pincode=570019l;
+		boolean tripodIncluded=true;
+		int deliveryFee=450;
+		String shipsFrom="Amazon";
+		long phoneNo=9876890123l;
+		byte quantity=1;
+		int finalPrice=16999;
+		byte eyepieces=2;
+		float tubeWeight=8.5f;
+		String color="Black";
+		String mountType="Equatorial";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("aperture before re-initialization="+aperture);
+		System.out.println("focalLength before re-initialization="+focalLength);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("opticalDesign before re-initialization="+opticalDesign);
+		System.out.println("magnification before re-initialization="+magnification);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("tripodIncluded before re-initialization="+tripodIncluded);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("eyepieces before re-initialization="+eyepieces);
+		System.out.println("tubeWeight before re-initialization="+tubeWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("mountType before re-initialization="+mountType);
+		System.out.println();
+
+		brand="Sky-Watcher";
+		model="Explorer 130";
+		price=23999;
+		aperture=130.0f;
+		focalLength=650.8d;
+		discount=15;
+		opticalDesign="Parabolic Reflector";
+		magnification=260.0f;
+		warranty=3;
+		pincode=570020l;
+		tripodIncluded=false;
+		deliveryFee=550;
+		shipsFrom="Flipkart";
+		phoneNo=9988001122l;
+		quantity=2;
+		finalPrice=45999;
+		eyepieces=3;
+		tubeWeight=7.9f;
+		color="White";
+		mountType="Dobsonian";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("aperture after re-initialization="+aperture);
+		System.out.println("focalLength after re-initialization="+focalLength);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("opticalDesign after re-initialization="+opticalDesign);
+		System.out.println("magnification after re-initialization="+magnification);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("tripodIncluded after re-initialization="+tripodIncluded);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("eyepieces after re-initialization="+eyepieces);
+		System.out.println("tubeWeight after re-initialization="+tubeWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("mountType after re-initialization="+mountType);
+	}
+}
