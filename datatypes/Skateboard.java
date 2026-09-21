@@ -1,0 +1,90 @@
+class Skateboard{
+	public static void main(String[] args){
+		System.out.println("Skateboard in which every specification is kept");
+
+		String brand="Strauss";
+		String model="Urban Rider";
+		int price=2999;
+		float deckLength=31.5f;
+		double wheelDiameter=54.5d;
+		short discount=10;
+		String deckMaterial="Maple Wood";
+		float truckWidth=5.8f;
+		byte warranty=1;
+		long pincode=570025l;
+		boolean gripTape=true;
+		int deliveryFee=120;
+		String shipsFrom="Flipkart";
+		long phoneNo=9876345678l;
+		byte quantity=1;
+		int finalPrice=2699;
+		byte wheels=4;
+		float loadCapacity=100.5f;
+		String color="Red";
+		String wheelMaterial="PU";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("deckLength before re-initialization="+deckLength);
+		System.out.println("wheelDiameter before re-initialization="+wheelDiameter);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("deckMaterial before re-initialization="+deckMaterial);
+		System.out.println("truckWidth before re-initialization="+truckWidth);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("gripTape before re-initialization="+gripTape);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("wheels before re-initialization="+wheels);
+		System.out.println("loadCapacity before re-initialization="+loadCapacity);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("wheelMaterial before re-initialization="+wheelMaterial);
+		System.out.println();
+
+		brand="Element";
+		model="Section Complete";
+		price=4999;
+		deckLength=32.8f;
+		wheelDiameter=58.0d;
+		discount=16;
+		deckMaterial="Canadian Maple";
+		truckWidth=6.2f;
+		warranty=2;
+		pincode=570026l;
+		gripTape=false;
+		deliveryFee=150;
+		shipsFrom="Amazon";
+		phoneNo=9988456789l;
+		quantity=2;
+		finalPrice=8999;
+		wheels=8;
+		loadCapacity=120.0f;
+		color="Black";
+		wheelMaterial="Rubber";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("deckLength after re-initialization="+deckLength);
+		System.out.println("wheelDiameter after re-initialization="+wheelDiameter);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("deckMaterial after re-initialization="+deckMaterial);
+		System.out.println("truckWidth after re-initialization="+truckWidth);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("gripTape after re-initialization="+gripTape);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("wheels after re-initialization="+wheels);
+		System.out.println("loadCapacity after re-initialization="+loadCapacity);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("wheelMaterial after re-initialization="+wheelMaterial);
+	}
+}
