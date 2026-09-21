@@ -1,0 +1,90 @@
+class TravelSuitcase{
+	public static void main(String[] args){
+		System.out.println("Travel Suitcase in which every specification is kept");
+
+		String brand="American Tourister";
+		String model="Curio Spinner";
+		int price=8999;
+		float capacity=75.5f;
+		double height=76.8d;
+		short discount=18;
+		String material="Polycarbonate";
+		float width=51.2f;
+		byte warranty=3;
+		long pincode=570011l;
+		boolean expandable=true;
+		int deliveryFee=150;
+		String shipsFrom="Amazon";
+		long phoneNo=9876456789l;
+		byte quantity=1;
+		int finalPrice=7499;
+		byte wheels=4;
+		float weight=4.2f;
+		String color="Red";
+		String lockType="TSA Lock";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("height before re-initialization="+height);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("material before re-initialization="+material);
+		System.out.println("width before re-initialization="+width);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("expandable before re-initialization="+expandable);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("wheels before re-initialization="+wheels);
+		System.out.println("weight before re-initialization="+weight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("lockType before re-initialization="+lockType);
+		System.out.println();
+
+		brand="Safari";
+		model="Thorium";
+		price=6999;
+		capacity=68.4f;
+		height=72.5d;
+		discount=22;
+		material="ABS";
+		width=48.6f;
+		warranty=5;
+		pincode=570012l;
+		expandable=false;
+		deliveryFee=100;
+		shipsFrom="Flipkart";
+		phoneNo=9988556677l;
+		quantity=2;
+		finalPrice=12999;
+		wheels=8;
+		weight=3.8f;
+		color="Navy";
+		lockType="Number Lock";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("height after re-initialization="+height);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("material after re-initialization="+material);
+		System.out.println("width after re-initialization="+width);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("expandable after re-initialization="+expandable);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("wheels after re-initialization="+wheels);
+		System.out.println("weight after re-initialization="+weight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("lockType after re-initialization="+lockType);
+	}
+}
