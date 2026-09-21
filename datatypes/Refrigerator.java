@@ -1,0 +1,90 @@
+class Refrigerator{
+	public static void main(String[] args){
+		System.out.println("Refrigerator in which every specification is kept");
+		
+		String brand="Whirlpool";
+		String model="Intellifresh 340";
+		int price=38990;
+		float capacity=340.5f;
+		double height=167.8d;
+		short energyRating=3;
+		String coolingType="Frost Free";
+		float width=59.2f;
+		byte warranty=10;
+		long pincode=560002l;
+		boolean inverter=true;
+		int deliveryFee=500;
+		String soldBy="Croma";
+		long contactNo=9876512340l;
+		byte quantity=1;
+		int finalPrice=35999;
+		byte doors=2;
+		float depth=68.4f;
+		String color="Steel Grey";
+		String refrigerant="R600a";
+		
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("height before re-initialization="+height);
+		System.out.println("energyRating before re-initialization="+energyRating);
+		System.out.println("coolingType before re-initialization="+coolingType);
+		System.out.println("width before re-initialization="+width);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("inverter before re-initialization="+inverter);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("soldBy before re-initialization="+soldBy);
+		System.out.println("contactNo before re-initialization="+contactNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("doors before re-initialization="+doors);
+		System.out.println("depth before re-initialization="+depth);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("refrigerant before re-initialization="+refrigerant);
+		System.out.println();
+		
+		brand="LG";
+		model="Smart Inverter 360";
+		price=42990;
+		capacity=360.8f;
+		height=172.4d;
+		energyRating=4;
+		coolingType="Convertible";
+		width=60.5f;
+		warranty=12;
+		pincode=560078l;
+		inverter=true;
+		deliveryFee=650;
+		soldBy="Reliance Digital";
+		contactNo=9988123456l;
+		quantity=2;
+		finalPrice=81999;
+		doors=3;
+		depth=70.1f;
+		color="Dark Graphite";
+		refrigerant="R32";
+		
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("height after re-initialization="+height);
+		System.out.println("energyRating after re-initialization="+energyRating);
+		System.out.println("coolingType after re-initialization="+coolingType);
+		System.out.println("width after re-initialization="+width);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("inverter after re-initialization="+inverter);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("soldBy after re-initialization="+soldBy);
+		System.out.println("contactNo after re-initialization="+contactNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("doors after re-initialization="+doors);
+		System.out.println("depth after re-initialization="+depth);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("refrigerant after re-initialization="+refrigerant);
+	}
+}
