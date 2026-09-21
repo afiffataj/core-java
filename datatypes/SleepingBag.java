@@ -1,0 +1,90 @@
+class SleepingBag{
+	public static void main(String[] args){
+		System.out.println("Sleeping Bag in which every specification is kept");
+
+		String brand="Wildcraft";
+		String model="Trail 250";
+		int price=3499;
+		float length=210.5f;
+		double temperatureRating=5.5d;
+		short discount=12;
+		String filling="Hollow Fiber";
+		float width=80.4f;
+		byte warranty=1;
+		long pincode=570023l;
+		boolean hoodAvailable=true;
+		int deliveryFee=99;
+		String shipsFrom="Amazon";
+		long phoneNo=9876123456l;
+		byte quantity=1;
+		int finalPrice=3099;
+		byte season=3;
+		float packedWeight=1.25f;
+		String color="Orange";
+		String zipperType="Two Way";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("length before re-initialization="+length);
+		System.out.println("temperatureRating before re-initialization="+temperatureRating);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("filling before re-initialization="+filling);
+		System.out.println("width before re-initialization="+width);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("hoodAvailable before re-initialization="+hoodAvailable);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("season before re-initialization="+season);
+		System.out.println("packedWeight before re-initialization="+packedWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("zipperType before re-initialization="+zipperType);
+		System.out.println();
+
+		brand="Decathlon";
+		model="Forclaz MT100";
+		price=4299;
+		length=225.8f;
+		temperatureRating=2.0d;
+		discount=18;
+		filling="Synthetic";
+		width=85.0f;
+		warranty=2;
+		pincode=570024l;
+		hoodAvailable=false;
+		deliveryFee=129;
+		shipsFrom="Decathlon";
+		phoneNo=9988234567l;
+		quantity=2;
+		finalPrice=7999;
+		season=4;
+		packedWeight=1.45f;
+		color="Navy";
+		zipperType="Side Zip";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("length after re-initialization="+length);
+		System.out.println("temperatureRating after re-initialization="+temperatureRating);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("filling after re-initialization="+filling);
+		System.out.println("width after re-initialization="+width);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("hoodAvailable after re-initialization="+hoodAvailable);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("season after re-initialization="+season);
+		System.out.println("packedWeight after re-initialization="+packedWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("zipperType after re-initialization="+zipperType);
+	}
+}
