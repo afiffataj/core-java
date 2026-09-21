@@ -1,0 +1,90 @@
+class MicrowaveOven{
+	public static void main(String[] args){
+		System.out.println("Microwave Oven in which every specification is kept");
+
+		String brand="IFB";
+		String model="20SC2";
+		int price=8990;
+		float capacity=20.5f;
+		double powerConsumption=1200.5d;
+		short discount=14;
+		String cookingMode="Convection";
+		float temperatureRange=230.5f;
+		byte warranty=2;
+		long pincode=570007l;
+		boolean childLock=true;
+		int deliveryFee=299;
+		String shipsFrom="Amazon";
+		long phoneNo=9876234567l;
+		byte quantity=1;
+		int finalPrice=7999;
+		byte autoPrograms=24;
+		float turntableSize=24.5f;
+		String color="Black";
+		String controlType="Touch";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("powerConsumption before re-initialization="+powerConsumption);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("cookingMode before re-initialization="+cookingMode);
+		System.out.println("temperatureRange before re-initialization="+temperatureRange);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("childLock before re-initialization="+childLock);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("autoPrograms before re-initialization="+autoPrograms);
+		System.out.println("turntableSize before re-initialization="+turntableSize);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("controlType before re-initialization="+controlType);
+		System.out.println();
+
+		brand="Samsung";
+		model="CE73JD";
+		price=12490;
+		capacity=23.2f;
+		powerConsumption=1450.8d;
+		discount=20;
+		cookingMode="Grill";
+		temperatureRange=250.0f;
+		warranty=3;
+		pincode=570008l;
+		childLock=false;
+		deliveryFee=399;
+		shipsFrom="Croma";
+		phoneNo=9988334455l;
+		quantity=2;
+		finalPrice=22999;
+		autoPrograms=35;
+		turntableSize=28.0f;
+		color="Silver";
+		controlType="Knob";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("powerConsumption after re-initialization="+powerConsumption);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("cookingMode after re-initialization="+cookingMode);
+		System.out.println("temperatureRange after re-initialization="+temperatureRange);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("childLock after re-initialization="+childLock);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("autoPrograms after re-initialization="+autoPrograms);
+		System.out.println("turntableSize after re-initialization="+turntableSize);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("controlType after re-initialization="+controlType);
+	}
+}
