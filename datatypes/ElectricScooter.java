@@ -1,0 +1,90 @@
+class ElectricScooter{
+	public static void main(String[] args){
+		System.out.println("Electric Scooter in which every specification is kept");
+
+		String brand="Ather";
+		String model="450X";
+		int price=139999;
+		float batteryCapacity=3.7f;
+		double range=111.2d;
+		short discount=5;
+		String motorType="PMSM";
+		float maximumSpeed=90.5f;
+		byte warranty=3;
+		long pincode=570013l;
+		boolean fastCharging=true;
+		int deliveryFee=2500;
+		String soldBy="Ather Energy";
+		long phoneNo=9876567890l;
+		byte quantity=1;
+		int finalPrice=134999;
+		byte ridingModes=4;
+		float chargingTime=5.2f;
+		String color="Space Grey";
+		String batteryType="Lithium Ion";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("batteryCapacity before re-initialization="+batteryCapacity);
+		System.out.println("range before re-initialization="+range);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("motorType before re-initialization="+motorType);
+		System.out.println("maximumSpeed before re-initialization="+maximumSpeed);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("fastCharging before re-initialization="+fastCharging);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("soldBy before re-initialization="+soldBy);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("ridingModes before re-initialization="+ridingModes);
+		System.out.println("chargingTime before re-initialization="+chargingTime);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("batteryType before re-initialization="+batteryType);
+		System.out.println();
+
+		brand="Ola";
+		model="S1 Pro";
+		price=149999;
+		batteryCapacity=4.0f;
+		range=176.5d;
+		discount=7;
+		motorType="Hub Motor";
+		maximumSpeed=120.0f;
+		warranty=4;
+		pincode=570014l;
+		fastCharging=true;
+		deliveryFee=3000;
+		soldBy="Ola Electric";
+		phoneNo=9988667788l;
+		quantity=2;
+		finalPrice=289999;
+		ridingModes=5;
+		chargingTime=6.0f;
+		color="Midnight Blue";
+		batteryType="Lithium Battery";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("batteryCapacity after re-initialization="+batteryCapacity);
+		System.out.println("range after re-initialization="+range);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("motorType after re-initialization="+motorType);
+		System.out.println("maximumSpeed after re-initialization="+maximumSpeed);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("fastCharging after re-initialization="+fastCharging);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("soldBy after re-initialization="+soldBy);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("ridingModes after re-initialization="+ridingModes);
+		System.out.println("chargingTime after re-initialization="+chargingTime);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("batteryType after re-initialization="+batteryType);
+	}
+}
