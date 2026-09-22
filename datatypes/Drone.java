@@ -1,0 +1,90 @@
+class Drone{
+	public static void main(String[] args){
+		System.out.println("Drone in which every specification is kept");
+
+		String brand="DJI";
+		String model="Mini 3";
+		int price=67999;
+		float flightTime=38.5f;
+		double cameraResolution=48.2d;
+		short discount=9;
+		String cameraType="4K HDR";
+		float transmissionRange=10.5f;
+		byte warranty=1;
+		long pincode=570015l;
+		boolean gps=true;
+		int deliveryFee=499;
+		String shipsFrom="Amazon";
+		long phoneNo=9876678901l;
+		byte quantity=1;
+		int finalPrice=64999;
+		byte propellers=4;
+		float maximumSpeed=57.6f;
+		String color="Light Grey";
+		String batteryType="Intelligent Flight Battery";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("flightTime before re-initialization="+flightTime);
+		System.out.println("cameraResolution before re-initialization="+cameraResolution);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("cameraType before re-initialization="+cameraType);
+		System.out.println("transmissionRange before re-initialization="+transmissionRange);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("gps before re-initialization="+gps);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("propellers before re-initialization="+propellers);
+		System.out.println("maximumSpeed before re-initialization="+maximumSpeed);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("batteryType before re-initialization="+batteryType);
+		System.out.println();
+
+		brand="Autel";
+		model="EVO Nano+";
+		price=59999;
+		flightTime=28.0f;
+		cameraResolution=50.0d;
+		discount=13;
+		cameraType="4K Ultra HD";
+		transmissionRange=12.0f;
+		warranty=2;
+		pincode=570016l;
+		gps=true;
+		deliveryFee=599;
+		shipsFrom="Flipkart";
+		phoneNo=9988778899l;
+		quantity=2;
+		finalPrice=114999;
+		propellers=6;
+		maximumSpeed=54.0f;
+		color="Orange";
+		batteryType="Lithium Polymer";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("flightTime after re-initialization="+flightTime);
+		System.out.println("cameraResolution after re-initialization="+cameraResolution);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("cameraType after re-initialization="+cameraType);
+		System.out.println("transmissionRange after re-initialization="+transmissionRange);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("gps after re-initialization="+gps);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("propellers after re-initialization="+propellers);
+		System.out.println("maximumSpeed after re-initialization="+maximumSpeed);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("batteryType after re-initialization="+batteryType);
+	}
+}
