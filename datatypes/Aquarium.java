@@ -1,0 +1,90 @@
+class Aquarium{
+	public static void main(String[] args){
+		System.out.println("Aquarium in which every specification is kept");
+
+		String brand="SOBO";
+		String model="Glass Tank 60";
+		int price=6499;
+		float capacity=60.5f;
+		double length=60.8d;
+		short discount=9;
+		String glassType="Float Glass";
+		float glassThickness=6.5f;
+		byte warranty=1;
+		long pincode=570029l;
+		boolean ledLight=true;
+		int deliveryFee=350;
+		String shipsFrom="Amazon";
+		long phoneNo=9876567890l;
+		byte quantity=1;
+		int finalPrice=5999;
+		byte compartments=2;
+		float emptyWeight=8.5f;
+		String color="Transparent";
+		String filterType="Internal Filter";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("length before re-initialization="+length);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("glassType before re-initialization="+glassType);
+		System.out.println("glassThickness before re-initialization="+glassThickness);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("ledLight before re-initialization="+ledLight);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("compartments before re-initialization="+compartments);
+		System.out.println("emptyWeight before re-initialization="+emptyWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("filterType before re-initialization="+filterType);
+		System.out.println();
+
+		brand="Hygger";
+		model="Crystal Tank 80";
+		price=8499;
+		capacity=80.0f;
+		length=75.5d;
+		discount=15;
+		glassType="Ultra Clear";
+		glassThickness=8.0f;
+		warranty=2;
+		pincode=570030l;
+		ledLight=false;
+		deliveryFee=450;
+		shipsFrom="Flipkart";
+		phoneNo=9988678901l;
+		quantity=2;
+		finalPrice=15999;
+		compartments=3;
+		emptyWeight=11.2f;
+		color="Crystal Clear";
+		filterType="Canister Filter";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("length after re-initialization="+length);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("glassType after re-initialization="+glassType);
+		System.out.println("glassThickness after re-initialization="+glassThickness);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("ledLight after re-initialization="+ledLight);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("compartments after re-initialization="+compartments);
+		System.out.println("emptyWeight after re-initialization="+emptyWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("filterType after re-initialization="+filterType);
+	}
+}
