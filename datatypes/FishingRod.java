@@ -1,0 +1,90 @@
+class FishingRod{
+	public static void main(String[] args){
+		System.out.println("Fishing Rod in which every specification is kept");
+
+		String brand="Shimano";
+		String model="FX Spinning";
+		int price=4599;
+		float rodLength=7.0f;
+		double castingWeight=15.5d;
+		short discount=13;
+		String rodMaterial="Carbon Fiber";
+		float lineWeight=12.5f;
+		byte warranty=1;
+		long pincode=570027l;
+		boolean telescopic=true;
+		int deliveryFee=99;
+		String shipsFrom="Amazon";
+		long phoneNo=9876456789l;
+		byte quantity=1;
+		int finalPrice=3999;
+		byte sections=2;
+		float rodWeight=0.25f;
+		String color="Black";
+		String handleMaterial="Cork";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("rodLength before re-initialization="+rodLength);
+		System.out.println("castingWeight before re-initialization="+castingWeight);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("rodMaterial before re-initialization="+rodMaterial);
+		System.out.println("lineWeight before re-initialization="+lineWeight);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("telescopic before re-initialization="+telescopic);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("sections before re-initialization="+sections);
+		System.out.println("rodWeight before re-initialization="+rodWeight);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("handleMaterial before re-initialization="+handleMaterial);
+		System.out.println();
+
+		brand="Abu Garcia";
+		model="Black Max";
+		price=5999;
+		rodLength=8.0f;
+		castingWeight=20.0d;
+		discount=18;
+		rodMaterial="Graphite";
+		lineWeight=15.5f;
+		warranty=2;
+		pincode=570028l;
+		telescopic=false;
+		deliveryFee=149;
+		shipsFrom="Flipkart";
+		phoneNo=9988567890l;
+		quantity=2;
+		finalPrice=10499;
+		sections=3;
+		rodWeight=0.31f;
+		color="Blue";
+		handleMaterial="EVA Foam";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("rodLength after re-initialization="+rodLength);
+		System.out.println("castingWeight after re-initialization="+castingWeight);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("rodMaterial after re-initialization="+rodMaterial);
+		System.out.println("lineWeight after re-initialization="+lineWeight);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("telescopic after re-initialization="+telescopic);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("sections after re-initialization="+sections);
+		System.out.println("rodWeight after re-initialization="+rodWeight);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("handleMaterial after re-initialization="+handleMaterial);
+	}
+}
