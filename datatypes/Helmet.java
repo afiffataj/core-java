@@ -1,0 +1,90 @@
+class Helmet{
+	public static void main(String[] args){
+		System.out.println("Helmet in which every specification is kept");
+
+		String brand="Vega";
+		String model="Crux";
+		int price=1299;
+		float weight=1.25f;
+		double size=58.5d;
+		short discount=12;
+		String material="ABS";
+		float visorLength=18.5f;
+		byte warranty=1;
+		long pincode=570001l;
+		boolean washable=true;
+		int deliveryFee=60;
+		String shipsFrom="Amazon";
+		long phoneNo=9876543210l;
+		byte quantity=1;
+		int finalPrice=1199;
+		byte ventilation=8;
+		float shellThickness=3.5f;
+		String color="Matte Black";
+		String certification="ISI";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("weight before re-initialization="+weight);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("material before re-initialization="+material);
+		System.out.println("visorLength before re-initialization="+visorLength);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("washable before re-initialization="+washable);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("ventilation before re-initialization="+ventilation);
+		System.out.println("shellThickness before re-initialization="+shellThickness);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("certification before re-initialization="+certification);
+		System.out.println();
+
+		brand="Studds";
+		model="Thunder D4";
+		price=1699;
+		weight=1.40f;
+		size=60.2d;
+		discount=18;
+		material="Polycarbonate";
+		visorLength=20.2f;
+		warranty=2;
+		pincode=570002l;
+		washable=false;
+		deliveryFee=80;
+		shipsFrom="Flipkart";
+		phoneNo=9988776655l;
+		quantity=2;
+		finalPrice=3099;
+		ventilation=12;
+		shellThickness=4.2f;
+		color="Glossy Blue";
+		certification="DOT";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("weight after re-initialization="+weight);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("material after re-initialization="+material);
+		System.out.println("visorLength after re-initialization="+visorLength);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("washable after re-initialization="+washable);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("ventilation after re-initialization="+ventilation);
+		System.out.println("shellThickness after re-initialization="+shellThickness);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("certification after re-initialization="+certification);
+	}
+}
