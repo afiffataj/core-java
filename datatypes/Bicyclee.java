@@ -1,0 +1,90 @@
+class Bicyclee{
+	public static void main(String[] args){
+		System.out.println("Bicycle in which every specification is kept");
+		
+		String brand="Firefox";
+		String model="Bad Attitude 8";
+		int price=28500;
+		float frameSize=17.5f;
+		double wheelSize=27.5d;
+		short gears=8;
+		String brakeType="Disc";
+		float weight=13.8f;
+		byte warranty=2;
+		long pincode=560001l;
+		boolean tubeless=true;
+		int deliveryFee=250;
+		String soldBy="Amazon";
+		long contactNo=9876543210l;
+		byte quantity=1;
+		int finalPrice=26999;
+		byte size=17;
+		float tyreWidth=2.25f;
+		String color="Matte Black";
+		String manufacturedIn="India";
+		
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("frameSize before re-initialization="+frameSize);
+		System.out.println("wheelSize before re-initialization="+wheelSize);
+		System.out.println("gears before re-initialization="+gears);
+		System.out.println("brakeType before re-initialization="+brakeType);
+		System.out.println("weight before re-initialization="+weight);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("tubeless before re-initialization="+tubeless);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("soldBy before re-initialization="+soldBy);
+		System.out.println("contactNo before re-initialization="+contactNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("tyreWidth before re-initialization="+tyreWidth);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("manufacturedIn before re-initialization="+manufacturedIn);
+		System.out.println();
+		
+		brand="Hero";
+		model="Sprint Pro";
+		price=22500;
+		frameSize=18.0f;
+		wheelSize=29.0d;
+		gears=21;
+		brakeType="V-Brake";
+		weight=15.2f;
+		warranty=3;
+		pincode=560045l;
+		tubeless=false;
+		deliveryFee=180;
+		soldBy="Flipkart";
+		contactNo=9988776655l;
+		quantity=2;
+		finalPrice=41999;
+		size=18;
+		tyreWidth=2.40f;
+		color="Blue";
+		manufacturedIn="China";
+		
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("frameSize after re-initialization="+frameSize);
+		System.out.println("wheelSize after re-initialization="+wheelSize);
+		System.out.println("gears after re-initialization="+gears);
+		System.out.println("brakeType after re-initialization="+brakeType);
+		System.out.println("weight after re-initialization="+weight);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("tubeless after re-initialization="+tubeless);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("soldBy after re-initialization="+soldBy);
+		System.out.println("contactNo after re-initialization="+contactNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("tyreWidth after re-initialization="+tyreWidth);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("manufacturedIn after re-initialization="+manufacturedIn);
+	}
+}
