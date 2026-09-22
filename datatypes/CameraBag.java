@@ -1,0 +1,90 @@
+class CameraBag{
+	public static void main(String[] args){
+		System.out.println("Camera Bag is for every specification");
+		
+		String brand="Lowepro";
+		String model="Fastpack Pro";
+		int price=6499;
+		float capacity=22.5f;
+		double height=45.6d;
+		short compartments=7;
+		String material="Nylon";
+		float width=29.8f;
+		byte warranty=1;
+		long pincode=560003l;
+		boolean rainCover=true;
+		int deliveryFee=99;
+		String soldBy="Amazon";
+		long contactNo=9123456780l;
+		byte quantity=1;
+		int finalPrice=5999;
+		byte size=15;
+		float depth=19.4f;
+		String color="Olive Green";
+		String suitableFor="DSLR";
+		
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("height before re-initialization="+height);
+		System.out.println("compartments before re-initialization="+compartments);
+		System.out.println("material before re-initialization="+material);
+		System.out.println("width before re-initialization="+width);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("rainCover before re-initialization="+rainCover);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("soldBy before re-initialization="+soldBy);
+		System.out.println("contactNo before re-initialization="+contactNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("depth before re-initialization="+depth);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("suitableFor before re-initialization="+suitableFor);
+		System.out.println();
+		
+		brand="Wildcraft";
+		model="Camera Shield";
+		price=5299;
+		capacity=18.7f;
+		height=42.2d;
+		compartments=5;
+		material="Polyester";
+		width=27.4f;
+		warranty=2;
+		pincode=560022l;
+		rainCover=false;
+		deliveryFee=120;
+		soldBy="Flipkart";
+		contactNo=9988771234l;
+		quantity=3;
+		finalPrice=14999;
+		size=13;
+		depth=17.8f;
+		color="Navy Blue";
+		suitableFor="Mirrorless";
+		
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("height after re-initialization="+height);
+		System.out.println("compartments after re-initialization="+compartments);
+		System.out.println("material after re-initialization="+material);
+		System.out.println("width after re-initialization="+width);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("rainCover after re-initialization="+rainCover);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("soldBy after re-initialization="+soldBy);
+		System.out.println("contactNo after re-initialization="+contactNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("depth after re-initialization="+depth);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("suitableFor after re-initialization="+suitableFor);
+	}
+}
