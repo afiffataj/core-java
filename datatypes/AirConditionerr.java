@@ -1,0 +1,90 @@
+class AirConditionerr{
+	public static void main(String[] args){
+		System.out.println("AirConditioner in which every specification is kept");
+
+		String brand="Voltas";
+		String model="183V Vectra";
+		int price=34990;
+		float capacity=1.5f;
+		double energyConsumption=852.6d;
+		short discount=15;
+		String coolingType="Inverter";
+		float noiseLevel=40.5f;
+		byte warranty=5;
+		long pincode=570003l;
+		boolean wifiControl=false;
+		int deliveryFee=799;
+		String shipsFrom="Croma";
+		long phoneNo=9876501234l;
+		byte quantity=1;
+		int finalPrice=31999;
+		byte starRating=5;
+		float airflow=850.5f;
+		String color="White";
+		String refrigerant="R32";
+
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("model before re-initialization="+model);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("capacity before re-initialization="+capacity);
+		System.out.println("energyConsumption before re-initialization="+energyConsumption);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("coolingType before re-initialization="+coolingType);
+		System.out.println("noiseLevel before re-initialization="+noiseLevel);
+		System.out.println("warranty before re-initialization="+warranty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("wifiControl before re-initialization="+wifiControl);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("starRating before re-initialization="+starRating);
+		System.out.println("airflow before re-initialization="+airflow);
+		System.out.println("color before re-initialization="+color);
+		System.out.println("refrigerant before re-initialization="+refrigerant);
+		System.out.println();
+
+		brand="Daikin";
+		model="FTKM50";
+		price=42990;
+		capacity=1.8f;
+		energyConsumption=760.4d;
+		discount=20;
+		coolingType="Split Inverter";
+		noiseLevel=38.2f;
+		warranty=10;
+		pincode=570004l;
+		wifiControl=true;
+		deliveryFee=999;
+		shipsFrom="Reliance Digital";
+		phoneNo=9988112233l;
+		quantity=2;
+		finalPrice=79999;
+		starRating=5;
+		airflow=910.8f;
+		color="Silver";
+		refrigerant="R410A";
+
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("model after re-initialization="+model);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("capacity after re-initialization="+capacity);
+		System.out.println("energyConsumption after re-initialization="+energyConsumption);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("coolingType after re-initialization="+coolingType);
+		System.out.println("noiseLevel after re-initialization="+noiseLevel);
+		System.out.println("warranty after re-initialization="+warranty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("wifiControl after re-initialization="+wifiControl);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("starRating after re-initialization="+starRating);
+		System.out.println("airflow after re-initialization="+airflow);
+		System.out.println("color after re-initialization="+color);
+		System.out.println("refrigerant after re-initialization="+refrigerant);
+	}
+}
