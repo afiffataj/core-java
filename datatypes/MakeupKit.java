@@ -1,0 +1,90 @@
+class MakeupKit{
+	public static void main(String[] args){
+		System.out.println("MakeupKit in which every product is kept");
+		
+		String brand="Blue Heaven";
+		String tone="Medium";
+		int price=576;
+		float weight=28.8f;
+		double length=46d;
+		short discount=42;
+		String productBenefits="Long Lasting";
+		float netQuantity=36.1f;
+		byte warrenty=5;
+		long pincode=560064l;
+		boolean primerAvailable=true;
+		int deliveryFee=100;
+		String shipsFrom="Amazon";
+		long phoneNo=9880974777l;
+		byte quantity=1;
+		int finalPrice=999;
+		byte size=8;
+		float itemWeight=74.8f;
+		String skinType="All";
+		String fromState="Kerala";
+		
+		System.out.println("brand before re-initialization="+brand);
+		System.out.println("tone before re-initialization="+tone);
+		System.out.println("price before re-initialization="+price);
+		System.out.println("weight before re-initialization="+weight);
+		System.out.println("length before re-initialization="+length);
+		System.out.println("discount before re-initialization="+discount);
+		System.out.println("productBenefits before re-initialization="+productBenefits);
+		System.out.println("netQuantity before re-initialization="+netQuantity);
+		System.out.println("warrenty before re-initialization="+warrenty);
+		System.out.println("pincode before re-initialization="+pincode);
+		System.out.println("primerAvailable before re-initialization="+primerAvailable);
+		System.out.println("deliveryFee before re-initialization="+deliveryFee);
+		System.out.println("shipsFrom before re-initialization="+shipsFrom);
+		System.out.println("phoneNo before re-initialization="+phoneNo);
+		System.out.println("quantity before re-initialization="+quantity);
+		System.out.println("finalPrice before re-initialization="+finalPrice);
+		System.out.println("size before re-initialization="+size);
+		System.out.println("itemWeight before re-initialization="+itemWeight);
+		System.out.println("skinType before re-initialization="+skinType);
+		System.out.println("fromState before re-initialization="+fromState);
+		System.out.println();
+		
+		brand="Lakme";
+		tone="Dark";
+		price=450;
+		weight=21.9f;
+		length=67d;
+		discount=56;
+		productBenefits="Long Lasting";
+		netQuantity=76.1f;
+		warrenty=3;
+		pincode=5600560l;
+		primerAvailable=true;
+		deliveryFee=90;
+		shipsFrom="Zepto";
+		phoneNo=9880432211l;
+		quantity=4;
+		finalPrice=4500;
+		size=4;
+		itemWeight=70.0f;
+		skinType="All";
+		fromState="Delhi";
+		
+		System.out.println("brand after re-initialization="+brand);
+		System.out.println("tone after re-initialization="+tone);
+		System.out.println("price after re-initialization="+price);
+		System.out.println("weight after re-initialization="+weight);
+		System.out.println("length after re-initialization="+length);
+		System.out.println("discount after re-initialization="+discount);
+		System.out.println("productBenefits after re-initialization="+productBenefits);
+		System.out.println("netQuantity after re-initialization="+netQuantity);
+		System.out.println("warrenty after re-initialization="+warrenty);
+		System.out.println("pincode after re-initialization="+pincode);
+		System.out.println("primerAvailable after re-initialization="+primerAvailable);
+		System.out.println("deliveryFee after re-initialization="+deliveryFee);
+		System.out.println("shipsFrom after re-initialization="+shipsFrom);
+		System.out.println("phoneNo after re-initialization="+phoneNo);
+		System.out.println("quantity after re-initialization="+quantity);
+		System.out.println("finalPrice after re-initialization="+finalPrice);
+		System.out.println("size after re-initialization="+size);
+		System.out.println("itemWeight after re-initialization="+itemWeight);
+		System.out.println("skinType after re-initialization="+skinType);
+		System.out.println("fromState after re-initialization="+fromState);
+	}
+}
